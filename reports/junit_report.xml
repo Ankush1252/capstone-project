@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.296" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-14T10:54:23.570867400Z">
+<testcase classname="Login" name="Successful Login - #1.1" time="26.586">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user enters email "ankushawate1252@gmail.com" and password "123123123" and clicks the login button.passed
+Then the user validates the message user is Logged in as "Ankush"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login Failure - #1.1" time="25.964">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When user enters email "user@example.com" and password "wrongPass" and clicks the login button.passed
+Then the user validates the error message...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
